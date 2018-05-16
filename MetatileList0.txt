@@ -14,29 +14,29 @@
 0D - 
 0E - 
 0F - 
-10 - Downward pipe left (can enter)
-11 - Downward pipe right (can enter)
-12 - Downward pipe left (can't enter)
-13 - Downward pipe right (can't enter)
-14 - Vertical pipe lower left
-15 - Vertical pipe lower right
-16 - Ledge left
-17 - Ledge mid
-18 - Ledge right
-19 - Shroom ledge left
-1A - Shroom ledge mid
-1B - Shroom ledge right
-1C - Horizontal pipe top
-1D - Horizontal pipe mid-top
-1E - Horizontal pipe shaft top
-1F - Horizontal pipe bottom
-20 - Horizontal pipe mid-bottom
-21 - Horizontal pipe shaft bottom
-22 - Seaweed
+10 - 
+11 - 
+12 - 
+13 - 
+14 - 
+15 - 
+16 - 
+17 - 
+18 - 
+19 - 
+1A - 
+1B - 
+1C - 
+1D - 
+1E - 
+1F - 
+20 - 
+21 - 
+22 - 
 23 - Bounced block (used to stun enemies on the block, reserved block)
 24 - 
 25 - 
-26 - Vine - BG part(?)
+26 - 
 27 - 
 28 - 
 29 - 
@@ -79,30 +79,30 @@
 4E - 
 4F - 
 50 - 
-51 - Breakable brick
+51 - 
 52 - 
-53 - ?
+53 - 
 54 - 
-55 - Flower brick
-56 - Vine brick
-57 - Ground star brick
-58 - (Gold mushroom brick?)
-59 - (Bat shroom brick?)
-5A - (Shuriken flower brick?)
-5B - (Ice flower brick?)
+55 - 
+56 - 
+57 - 
+58 - 
+59 - 
+5A - 
+5B - 
 5C - 
 5D - 
-5E - (General powerup brick - Exact powerup controlled by other commands)
-5F - Hidden coin
-60 - Hidden 1UP
-61 - Solid block
+5E - 
+5F - 
+60 - 
+61 - 
 62 - 
 63 - 
-64 - Cannon top
-65 - Cannon mid
-66 - Cannon bottom
-67 - Jumpspring blank
-68 - Jumpspring bottom
+64 - 
+65 - 
+66 - 
+67 - 
+68 - 
 69 - 
 6A - 
 6B - 
@@ -190,11 +190,11 @@ BC -
 BD - 
 BE - 
 BF - 
-C0 - Question block: Coin
-C1 - Question block: Flower
-C2 - Coin
-C3 - (Question block: General powerup?)
-C4 - Used block
+C0 - 
+C1 - 
+C2 - 
+C3 - 
+C4 - 
 C5 - 
 C6 - 
 C7 - 
