@@ -1,5 +1,5 @@
 ; Enemy arrangement guidelines
-; i.   For each enemy, the attribute is the same for both classes.
+; i.   For each enemy, the attribute(elemental attribute) is the same for both classes.
 ; ii.  For the same enemy, different classes should only pose minor changes to its code, for example walking speed.
 ;      Fundamentally different enemies should better be split into two enemies, although it may still be feasible if they're treated as two classes of just one type.
 ; iii. The enemy slot arrangement should be like this (numbers are decimal):
@@ -14,6 +14,17 @@
 ; 65 - 95: Irregular enemies
 ; 96 - 111: Non-enemies
 ; 112 - 127: Non-enemies, except that NPCs with triggerable dialogue (when you approach them and press UP) MUST be defined within this range.
+
+Elemental attributes:
+N = Normal
+H = Harmful when stomped onto, otherwise normal
+F = Fiery (Hit by fire = Lv+1, prone to ice; Normally can not be stomped onto)
+I = Ice (Hit by ice = Lv+1, prone to fire)
+M = Metal (only prone to gunner & hammer)
+S = Spiritual (only prone to Mage Mario; Normally can not be stomped onto)
+U = Undefeatable except with Cross, or Starman if it does have a bounding box
+NE = Not enemy, and thus undefeatable and cannot harm you either. This should only be taken literally: The object ITSELF might not be an enemy, but it may generate an enemy.
+
 
 
 Metatile arrangement:
