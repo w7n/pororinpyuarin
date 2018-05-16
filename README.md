@@ -1,6 +1,8 @@
 # pororinpyuarin
 Who knows what this is...
 
+PLEASE READ THE GUIDELINES FIRST.
+
 Area types:
 
 0 - Completely underwater, no unique blocks
