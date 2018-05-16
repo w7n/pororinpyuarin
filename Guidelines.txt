@@ -29,7 +29,7 @@ NE = Not enemy, and thus undefeatable and cannot harm you either. This should on
 
 Metatile arrangement:
 00 - 3F (0-63): Universal
-40 - 7F (64-127): Level style related (for example slope related blocks should be in this category)
+40 - 7F (64-127): Area style related (for example slope related blocks should be in this category)
 80 - BF (128-191): BG related
 C0 - FF (192-255): Misc, including terrain related blocks and others
 Try to make a list based on this(to be exact, 8 lists based on area style, and only functionality is taken into consideration while graphics are another matter). Palettes should be given alongside - Every metatile's palette should be fixed.
