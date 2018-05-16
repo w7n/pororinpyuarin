@@ -1,0 +1,36 @@
+; Enemy arrangement guidelines
+; i.   For each enemy, the attribute is the same for both classes.
+; ii.  For the same enemy, different classes should only pose minor changes to its code, for example walking speed.
+;      Fundamentally different enemies should better be split into two enemies, although it may still be feasible if they're treated as two classes of just one type.
+; iii. The enemy slot arrangement should be like this (numbers are decimal):
+; 0 - 30:  Enemies that are most similar to goombas (they run into walls and turn around, they have gravity imposed,
+;          their graphics are all within a 16x32 box, and they are the only enemies that turn around upon hitting each other.)
+;          The first few enemies should be variants of goombas.
+; 31:      Powerup
+; 32 - 63: Enemies that are relatively less similar to goombas (their graphics are within a 16x32 box, bounding boxes are the same,
+;          but their behaviour code is not necessarily gravity-based. Note that hammer bros also belong to this category, since they sometimes jump through ground.
+;          Enemies in both this and the 0-30 category can be defeated by shells.)
+; 64:      Boss
+; 65 - 95: Irregular enemies
+; 96 - 111: Non-enemies
+; 112 - 127: Non-enemies, except that NPCs with triggerable dialogue (when you approach them and press UP) MUST be defined within this range.
+
+
+Metatile arrangement:
+00 - 3F (0-63): Universal
+40 - 7F (64-127): Level style related (for example slope related blocks should be in this category)
+80 - BF (128-191): BG related
+C0 - FF (192-255): Misc, including terrain related blocks and others
+Try to make a list based on this(to be exact, 8 lists based on area style, and only functionality is taken into consideration while graphics are another matter). Palettes should be given alongside - Every metatile's palette should be fixed.
+The 8 lists should be MetatileList0.txt to MetatileList7.txt
+
+Area styles:
+0 - Completely underwater, no unique blocks
+1 - Normal w/slopes
+2 - Normal w/breakable terrain (i.e. Super Fire can break these terrain blocks and reveal paths, otherwise Super Fire can only break bricks)
+3 - (Undecided)
+Area types <=3 use complex terrain (all sides). Types below use simple terrain (only unique for up&down)
+4 - Normal w/more unique blocks (WHICH? EMB's ! blocks maybe?)
+5 - Normal w/cannons (only in this type will cannons be checked whilst refreshing level data)
+6 - Slippery & conveyer belt blocks
+7 - BG oriented, only for aesthetics, while only the most basic objects are used.
