@@ -1,0 +1,256 @@
+00 - Blank
+01 - Pure black
+02 - 
+03 - 
+04 - 
+05 - 
+06 - 
+07 - 
+08 - 
+09 - 
+0A - 
+0B - 
+0C - 
+0D - 
+0E - 
+0F - 
+10 - Downward pipe left (can enter)
+11 - Downward pipe right (can enter)
+12 - Downward pipe left (can't enter)
+13 - Downward pipe right (can't enter)
+14 - Vertical pipe lower left
+15 - Vertical pipe lower right
+16 - Ledge left
+17 - Ledge mid
+18 - Ledge right
+19 - Shroom ledge left
+1A - Shroom ledge mid
+1B - Shroom ledge right
+1C - Horizontal pipe top
+1D - Horizontal pipe mid-top
+1E - Horizontal pipe shaft top
+1F - Horizontal pipe bottom
+20 - Horizontal pipe mid-bottom
+21 - Horizontal pipe shaft bottom
+22 - Seaweed
+23 - Bounced block (used to stun enemies on the block, reserved block)
+24 - 
+25 - 
+26 - Vine - BG part(?)
+27 - 
+28 - 
+29 - 
+2A - 
+2B - 
+2C - 
+2D - 
+2E - 
+2F - 
+30 - 
+31 - 
+32 - 
+33 - 
+34 - 
+35 - 
+36 - 
+37 - 
+38 - 
+39 - 
+3A - 
+3B - 
+3C - 
+3D - 
+3E - 
+3F - 
+40 - 
+41 - 
+42 - 
+43 - 
+44 - 
+45 - 
+46 - 
+47 - 
+48 - 
+49 - 
+4A - 
+4B -
+4C - 
+4D - 
+4E - 
+4F - 
+50 - 
+51 - Breakable brick
+52 - 
+53 - ?
+54 - 
+55 - Flower brick
+56 - Vine brick
+57 - Ground star brick
+58 - (Gold mushroom brick?)
+59 - (Bat shroom brick?)
+5A - (Shuriken flower brick?)
+5B - (Ice flower brick?)
+5C - 
+5D - 
+5E - (General powerup brick - Exact powerup controlled by other commands)
+5F - Hidden coin
+60 - Hidden 1UP
+61 - Solid block
+62 - 
+63 - 
+64 - Cannon top
+65 - Cannon mid
+66 - Cannon bottom
+67 - Jumpspring blank
+68 - Jumpspring bottom
+69 - 
+6A - 
+6B - 
+6C - 
+6D -
+6E - 
+6F - 
+70 - 
+71 - 
+72 - 
+73 - 
+74 - 
+75 - 
+76 - 
+77 - 
+78 - 
+79 - 
+7A - 
+7B - 
+7C - 
+7D - 
+7E - 
+7F - 
+80 - 
+81 - 
+82 - 
+83 - 
+84 - 
+85 - 
+86 - 
+87 - 
+88 - 
+89 - 
+8A - 
+8B - 
+8C - 
+8D - 
+8E - 
+8F - 
+90 - 
+91 - 
+92 - 
+93 - 
+94 - 
+95 - 
+96 -
+97 - 
+98 - 
+99 - 
+9A - 
+9B - 
+9C - 
+9D - 
+9E - 
+9F -
+A0 - 
+A1 - 
+A2 - 
+A3 - 
+A4 - 
+A5 - 
+A6 - 
+A7 - 
+A8 - 
+A9 - 
+AA - 
+AB - 
+AC - 
+AD - 
+AE - 
+AF - 
+B0 - 
+B1 - 
+B2 - 
+B3 - 
+B4 - 
+B5 - 
+B6 - 
+B7 - 
+B8 - 
+B9 - 
+BA - 
+BB - 
+BC - 
+BD - 
+BE - 
+BF - 
+C0 - Question block: Coin
+C1 - Question block: Flower
+C2 - Coin
+C3 - (Question block: General powerup?)
+C4 - Used block
+C5 - 
+C6 - 
+C7 - 
+C8 - 
+C9 - 
+CA - 
+CB - 
+CC - 
+CD -
+CE - 
+CF - 
+D0 - TerNoSurrounding
+D1 - Ter2
+D2 - Ter4
+D3 - Ter6
+D4 - Ter8
+D5 - Ter24
+D6 - Ter24_1
+D7 - Ter26
+D8 - Ter26_3
+D9 - Ter28
+DA - Ter46
+DB - Ter48
+DC - Ter48_7
+DD - Ter68
+DE - Ter68_9
+DF - Ter246
+E0 - Ter246_1
+E1 - Ter246_3
+E2 - Ter246_13
+E3 - Ter248
+E4 - Ter248_1
+E5 - Ter248_7
+E6 - Ter248_17
+E7 - Ter268
+E8 - Ter268_3
+E9 - Ter268_7
+EA - Ter268_37
+EB - Ter468
+EC - Ter468_7
+ED - Ter468_9
+EE - Ter468_79
+EF - Ter2468
+F0 - Ter2468_1
+F1 - Ter2468_3
+F2 - Ter2468_7
+F3 - Ter2468_9
+F4 - Ter2468_13
+F5 - Ter2468_17
+F6 - Ter2468_19
+F7 - Ter2468_37
+F8 - Ter2468_39
+F9 - Ter2468_79
+FA - Ter2468_137
+FB - Ter2468_139
+FC - Ter2468_179
+FD - Ter2468_379
+FE - Ter2468_1379
+FF - Reserved solid block
