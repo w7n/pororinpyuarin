@@ -5,7 +5,7 @@
 ; iii. The enemy slot arrangement should be like this (numbers are decimal):
 ; 0 - 30:  Enemies that are most similar to goombas (they run into walls and turn around, they have gravity imposed,
 ;          their graphics are all within a 16x32 box, and they are the only enemies that turn around upon hitting each other.)
-;          The first few enemies should be variants of goombas.
+;          The first few enemies should be variants of SQUISHABLE ENEMIES like goombas. (But not paragoombas: They don't get squished immediately when stomped.)
 ; 31:      Powerup
 ; 32 - 63: Enemies that are relatively less similar to goombas (their graphics are within a 16x32 box, bounding boxes are the same,
 ;          but their behaviour code is not necessarily gravity-based. Note that hammer bros also belong to this category, since they sometimes jump through ground.
