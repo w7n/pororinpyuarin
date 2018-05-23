@@ -1,20 +1,21 @@
-AREA TYPE 0: UNDERWATER. REMOVE THIS LINE WHEN COPIED INTO THE LEVEL EDITOR.
+AREA TYPE 0: UNDERWATER. REMOVE THE INITIAL COMMENTS WHEN COPIED INTO THE LEVEL EDITOR.
+In areatype 0 there is no need to set the water attr. flag for any block.
 00 - Blank
 01 - Pure black
-02 - Pure 
+02 - 
 03 - 
 04 - 
 05 - 
 06 - 
 07 - 
-08 - Signpost pointing up
-09 - Signpost pointing down
-0A - Signpost pointing left
-0B - Signpost pointing right
+08 - Signpost pointing down
+09 - 
+0A - 
+0B - 
 0C - 
 0D - 
-0E - 
-0F - 
+0E - Door top
+0F - Door bottom
 10 - Vertical pipe left (can enter)
 11 - Vertical pipe right (can enter)
 12 - Vertical pipe left (can't enter)
@@ -35,33 +36,33 @@ AREA TYPE 0: UNDERWATER. REMOVE THIS LINE WHEN COPIED INTO THE LEVEL EDITOR.
 21 - Alt. climbing block (e.g. rope)
 22 - Block solid for enemies but hollow for player
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
-24 - 
-25 - 
-26 - Springboard upper block (use with caution in areatype0)
-27 - Springboard lower block (use with caution in areatype0)
-28 - ? block (coin)
-29 - ? block (mushroom i.e. +HP)
-2A - ? block (flower)
-2B - ? block (ice)
-2C - 
-2D - 
-2E - 
-2F - 
+24 - Springboard upper block (use with caution in areatype0)
+25 - Springboard lower block (use with caution in areatype0)
+26 - 
+27 - ! block (arbitrary pwrup, functionally/graphically non-switchable)
+28 - ? block (coin, p-switchable)
+29 - ? block (mushroom, p-switchable)
+2A - ? block (flower, p-switchable)
+2B - ? block (arbitrary pwrup, p-switchable)
+2C - Breakable brick
+2D - Brick (flower)
+2E - Brick (vine)
+2F - Brick (arbitrary pwrup)
 30 - Slope 45deg floor /
 31 - Slope 45deg floor \
 32 - Slope 45deg ceiling /
 33 - Slope 45deg ceiling \
-34 - Slope inner block 0 (corresponds to 30)
-35 - Slope inner block 1 (corresponds to 31)
-36 - Coin (normal)
-37 - Coin (w/most common BG)
-38 - Coin (underwater, non-switchable, do not put it in a P-switch level)
+34 - Coin (normal, functionally switch to 2C)
+35 - Coin (underwater, functionally switch to 2C)
+36 - Slope inner block 0 (corresponds to 30)
+37 - Slope inner block 1 (corresponds to 31)
+38 - 
 39 - 
 3A - 
 3B - 
 3C - 
-3D - 
-3E - 
+3D - Water surface (only aesthetic for areatype0)
+3E - Below water surface (useless for areatype0)
 3F - P-switch
 40 - 
 41 - 
