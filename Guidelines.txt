@@ -28,10 +28,10 @@ NE = Not enemy, and thus undefeatable and cannot harm you either. This should on
 
 
 Metatile arrangement:
-00 - 3F (0-63): Universal (note that slope related blocks should be in this category - Universal doesn't mean fixed, it just means being more commonly used. Also, ignore rules when necessary.)
-40 - 7F (64-127): Area style related
+00 - 3F (0-63): Universal
+40 - 7F (64-127): Area type related
 80 - BF (128-191): BG related
-C0 - FF (192-255): Misc, including terrain related blocks and others
+C0 - FF (192-255): Common blocks for either areatype0-3 or areatype 4-7, including terrain related blocks and others. Slope related blocks should be in this category.
 Try to make a list based on this(to be exact, 8 lists based on area style, and only functionality is taken into consideration while graphics are another matter). Palettes should be given alongside - Every metatile's palette should be fixed.
 The 8 lists should be MetatileList0.txt to MetatileList7.txt
 
