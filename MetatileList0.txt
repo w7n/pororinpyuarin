@@ -4,8 +4,8 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 01 - Pure black
 02 - 
 03 - 
-04 - 
-05 - 
+04 - Scrl boss hit detect pt: Stomps only
+05 - Scrl boss hit detect pt: Stomps&Fballs
 06 - 
 07 - 
 08 - Signpost pointing down
@@ -32,30 +32,30 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 1D - 
 1E - 
 1F - 
-20 - Vine block
-21 - Alt. climbing block (e.g. rope)
+20 - Vine
+21 - Alt. climbing metatile (e.g. rope)
 22 - Block solid for enemies but hollow for player
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
 24 - Springboard upper block (use with caution in areatype0)
 25 - Springboard lower block (use with caution in areatype0)
 26 - 
-27 - ! block (arbitrary pwrup, functionally/graphically non-switchable)
-28 - ? block (coin, p-switchable)
-29 - ? block (mushroom, p-switchable)
-2A - ? block (flower, p-switchable)
-2B - ? block (arbitrary pwrup, p-switchable)
-2C - Breakable brick
-2D - Brick (flower)
-2E - Brick (vine)
-2F - Brick (arbitrary pwrup)
-30 - Slope 45deg floor /
-31 - Slope 45deg floor \
-32 - Slope 45deg ceiling /
-33 - Slope 45deg ceiling \
-34 - Coin (normal, functionally switch to 2C)
-35 - Coin (underwater, functionally switch to 2C)
-36 - Slope inner block 0 (corresponds to 30)
-37 - Slope inner block 1 (corresponds to 31)
+27 - 
+28 - Used block
+29 - 
+2A - Breakable brick
+2B - Brick (flower)
+2C - Brick (vine)
+2D - Brick (arbitrary pwrup or enemy)
+2E - Invisible coin
+2F - ? block (goomba, p-switchable, must obey enemycap=5 rule)
+30 - ? block (coin, p-switchable)
+31 - ? block (mushroom, p-switchable)
+32 - ? block (flower, p-switchable)
+33 - ? block (arbitrary pwrup or enemy, p-switchable)
+34 - Coin (switch to 30)
+35 - Coin (switch to 31)
+36 - Coin (switch to 32)
+37 - Coin (switch to 33)
 38 - 
 39 - 
 3A - 
@@ -192,12 +192,12 @@ BC -
 BD - 
 BE - 
 BF - 
-C0 - 
-C1 - 
-C2 - 
-C3 - 
-C4 - 
-C5 - 
+C0 - Slope 45deg floor /
+C1 - Slope 45deg floor \
+C2 - Slope 45deg ceiling /
+C3 - Slope 45deg ceiling \
+C4 - Slope inner block 0 (corresponds to C0)
+C5 - Slope inner block 1 (corresponds to C1)
 C6 - 
 C7 - 
 C8 - 
