@@ -1,67 +1,68 @@
+AREA TYPE 0: UNDERWATER. REMOVE THIS LINE WHEN COPIED INTO THE LEVEL EDITOR.
 00 - Blank
 01 - Pure black
-02 - 
+02 - Pure 
 03 - 
 04 - 
 05 - 
 06 - 
 07 - 
-08 - 
-09 - 
-0A - 
-0B - 
+08 - Signpost pointing up
+09 - Signpost pointing down
+0A - Signpost pointing left
+0B - Signpost pointing right
 0C - 
 0D - 
 0E - 
 0F - 
-10 - 
-11 - 
-12 - 
-13 - 
-14 - 
-15 - 
-16 - 
-17 - 
-18 - 
-19 - 
-1A - 
-1B - 
+10 - Vertical pipe left (can enter)
+11 - Vertical pipe right (can enter)
+12 - Vertical pipe left (can't enter)
+13 - Vertical pipe right (can't enter)
+14 - Vertical pipe lower left
+15 - Vertical pipe lower right
+16 - Horizontal pipe top
+17 - Horizontal pipe bottom
+18 - Horizontal pipe mid-top
+19 - Horizontal pipe mid-bottom
+1A - Horizontal pipe shaft top
+1B - Horizontal pipe shaft bottom
 1C - 
 1D - 
 1E - 
 1F - 
-20 - 
-21 - 
-22 - 
-23 - Bounced block (used to stun enemies on the block, reserved block)
+20 - Vine block
+21 - Alt. climbing block (e.g. rope)
+22 - Block solid for enemies but hollow for player
+23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
 24 - 
 25 - 
-26 - 
-27 - 
-28 - 
-29 - 
-2A - 
-2B - 
+26 - Springboard upper block (use with caution in areatype0)
+27 - Springboard lower block (use with caution in areatype0)
+28 - ? block (coin)
+29 - ? block (mushroom i.e. +HP)
+2A - ? block (flower)
+2B - ? block (ice)
 2C - 
 2D - 
 2E - 
 2F - 
-30 - 
-31 - 
-32 - 
-33 - 
-34 - 
-35 - 
-36 - 
-37 - 
-38 - 
+30 - Slope 45deg floor /
+31 - Slope 45deg floor \
+32 - Slope 45deg ceiling /
+33 - Slope 45deg ceiling \
+34 - Slope inner block 0 (corresponds to 30)
+35 - Slope inner block 1 (corresponds to 31)
+36 - Coin (normal)
+37 - Coin (w/most common BG)
+38 - Coin (underwater, non-switchable, do not put it in a P-switch level)
 39 - 
 3A - 
 3B - 
 3C - 
 3D - 
 3E - 
-3F - 
+3F - P-switch
 40 - 
 41 - 
 42 - 
@@ -253,4 +254,4 @@ FB - Ter2468_139
 FC - Ter2468_179
 FD - Ter2468_379
 FE - Ter2468_1379
-FF - Reserved solid block
+FF - Reserved invisible solid block
