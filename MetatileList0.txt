@@ -6,9 +6,9 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 03 - 
 04 - Scrl boss hit detect pt: Stomps only
 05 - Scrl boss hit detect pt: Stomps&Fballs
-06 - 
+06 - Signpost pointing down
 07 - 
-08 - Signpost pointing down
+08 - Instadeath metatile (invisible in SS, non-invisible in MG and non-instadeath on easy)
 09 - Metatile solid for enemies only (invisible in SS, non-invisible in MG)
 0A - Metatile solid for player only (invisible in SS, non-invisible in MG)
 0B - Invisible metatile: Solid for player & enemies
@@ -28,10 +28,10 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 19 - Horizontal pipe mid-bottom
 1A - Horizontal pipe shaft top
 1B - Horizontal pipe shaft bottom
-1C - 
-1D - 
-1E - 
-1F - 
+1C - Damage tile (floor)
+1D - Damage tile (ceiling)
+1E - Damage tile (left)
+1F - Damage tile (right)
 20 - Vine
 21 - Alt. climbing metatile (e.g. rope)
 22 - 
