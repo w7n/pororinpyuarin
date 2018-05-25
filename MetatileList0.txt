@@ -9,9 +9,9 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 06 - 
 07 - 
 08 - Signpost pointing down
-09 - 
-0A - 
-0B - 
+09 - Metatile solid for enemies only (invisible in SS, non-invisible in MG)
+0A - Metatile solid for player only (invisible in SS, non-invisible in MG)
+0B - Invisible metatile: Solid for player & enemies
 0C - 
 0D - 
 0E - Door top
@@ -34,7 +34,7 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 1F - 
 20 - Vine
 21 - Alt. climbing metatile (e.g. rope)
-22 - Block solid for enemies but hollow for player
+22 - 
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
 24 - Springboard upper block (use with caution in areatype0)
 25 - Springboard lower block (use with caution in areatype0)
@@ -255,4 +255,4 @@ FB - Ter2468_139
 FC - Ter2468_179
 FD - Ter2468_379
 FE - Ter2468_1379
-FF - Reserved invisible solid block
+FF - Reserved block for terrain judgement (normally do not use)
