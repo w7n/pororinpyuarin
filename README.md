@@ -15,10 +15,10 @@ Area types:
 
 Area types <=3 use complex terrain (all sides). Types below use simple terrain (only unique for up&down)
 
-4 - Normal w/more unique blocks (WHICH? EMB's ! blocks maybe?)
+4 - Normal w/switch-dependant blocks (EMB's ! blocks etc.)
 
-5 - Normal w/cannons (only in this type will cannons be checked whilst refreshing level data)
+5 - Normal w/cannons & other enemy generators (only in this type will cannons be checked whilst refreshing level data)
 
-6 - Slippery & conveyer belt blocks
+6 - Normal w/time-dependant blocks
 
 7 - BG oriented, only for aesthetics, while only the most basic objects are used.
