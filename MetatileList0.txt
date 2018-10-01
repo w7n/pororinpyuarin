@@ -193,17 +193,17 @@ BD -
 BE - 
 BF - 
 C0 - Slope 45deg floor /
-C1 - Slope 45deg floor \
-C2 - Slope 45deg ceiling /
+C1 - Slope 45deg ceiling /
+C2 - Slope 45deg floor \
 C3 - Slope 45deg ceiling \
-C4 - Slope inner block 0 (corresponds to C0)
-C5 - Slope inner block 1 (corresponds to C1)
-C6 - 
-C7 - 
-C8 - 
-C9 - 
-CA - 
-CB - 
+C4 - Slope 2:1 floor / sono1(low)
+C5 - Slope 2:1 ceiling / sono1(low)
+C6 - Slope 2:1 floor / sono2(high)
+C7 - Slope 2:1 ceiling / sono2(high)
+C8 - Slope 2:1 floor \ sono1(high)
+C9 - Slope 2:1 ceiling \ sono1(high)
+CA - Slope 2:1 floor \ sono2(low)
+CB - Slope 2:1 ceiling \ sono2(low)
 CC - 
 CD -
 CE - 
