@@ -204,10 +204,10 @@ C8 - Slope 2:1 floor \ sono1(high)
 C9 - Slope 2:1 ceiling \ sono1(high)
 CA - Slope 2:1 floor \ sono2(low)
 CB - Slope 2:1 ceiling \ sono2(low)
-CC - 
-CD -
-CE - 
-CF - 
+CC - Slope arc floor / small (Areatype3 only)
+CD - Slope arc ceiling / small (Areatype3 only)
+CE - Slope arc floor \ small (Areatype3 only)
+CF - Slope arc floor \ small (Areatype3 only)
 D0 - TerNoSurrounding
 D1 - Ter2
 D2 - Ter4
