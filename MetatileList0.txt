@@ -26,8 +26,8 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 17 - Horizontal pipe bottom
 18 - Horizontal pipe mid-top
 19 - Horizontal pipe mid-bottom
-1A - Horizontal pipe shaft top
-1B - Horizontal pipe shaft bottom
+1A - 
+1B - Horizontal pipe bottom (can't enter)
 1C - Damage tile (floor)
 1D - Damage tile (ceiling)
 1E - Damage tile (left)
