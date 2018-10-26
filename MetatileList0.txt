@@ -56,14 +56,14 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 35 - Coin (switch to 31)
 36 - Coin (switch to 32)
 37 - Coin (switch to 33)
-38 - 
-39 - 
+38 - P-switchable MT (hollow if not P-switched, solid if yes)
+39 - P-switch itself
 3A - 
 3B - 
 3C - 
 3D - Water surface (only aesthetic for areatype0)
 3E - Below water surface (useless for areatype0)
-3F - P-switch
+3F - 
 40 - 
 41 - 
 42 - 
