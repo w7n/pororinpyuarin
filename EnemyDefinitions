@@ -1,0 +1,11 @@
+Enemy Name (ID, Element) 
+1 (Class 0) - Movement Speed, Movement Type, Pursuit Type, Alt. Attack Option, Death State, Misc. Traits
+2 (Class 1) - " "
+U (All Classes) - Universal Traits (i.e. If Standing, N, If Shell, M)
+
+Movement Speed: Idle, Slow, Average, Fast, Very Fast
+Movement Type: Careless (Fall into pit), Cautious (Turn around at ledge), Wild (Jump over ledge)
+Pursuit Type: Flee (Run away), Pace (Do not track player), Pursue (Track with Short Hop), Hunt (Track with High Jump)
+Alt. Attack Option: Describe
+Death State: Die, Transform (ID, Class)
+Traits: Describe
