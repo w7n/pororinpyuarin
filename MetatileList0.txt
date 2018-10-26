@@ -34,15 +34,15 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 1F - Damage tile (right)
 20 - Vine
 21 - Alt. climbing metatile (e.g. rope)
-22 - 
+22 - Springboard block (use with caution in areatype0)
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
-24 - Springboard block (use with caution in areatype0)
-25 - 
-26 - 
-27 - 
-28 - Used block
-29 - 
-2A - Breakable brick
+24 - Used block
+25 - ! Block (Switch powerups)
+26 - ! Block (Throw a flag caught by various mechanics)
+27 - ! Block (EMB typed 0)
+28 - ! Block (EMB typed 1)
+29 - Breakable brick
+2A - Brick (star)
 2B - Brick (flower)
 2C - Brick (vine)
 2D - Brick (arbitrary pwrup or enemy)
