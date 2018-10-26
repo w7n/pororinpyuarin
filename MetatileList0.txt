@@ -36,8 +36,8 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 21 - Alt. climbing metatile (e.g. rope)
 22 - 
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
-24 - Springboard upper block (use with caution in areatype0)
-25 - Springboard lower block (use with caution in areatype0)
+24 - Springboard block (use with caution in areatype0)
+25 - 
 26 - 
 27 - 
 28 - Used block
