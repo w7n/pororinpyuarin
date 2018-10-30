@@ -36,14 +36,14 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 21 - Alt. climbing metatile (e.g. rope)
 22 - Springboard block (use with caution in areatype0)
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
-24 - Used block
+24 - Save block
 25 - ! Block (Switch powerups)
 26 - ! Block (Throw a flag caught by various mechanics)
 27 - ! Block (EMB typed 0)
 28 - ! Block (EMB typed 1)
 29 - Breakable brick
 2A - Brick (star)
-2B - Brick (flower)
+2B - Brick (shroom)
 2C - Brick (vine)
 2D - Brick (arbitrary pwrup or enemy)
 2E - Invisible coin
@@ -60,10 +60,10 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 39 - P-switch itself
 3A - 
 3B - 
-3C - 
+3C - Used block
 3D - Water surface (only aesthetic for areatype0)
 3E - Below water surface (useless for areatype0)
-3F - 
+3F - Solid block (bombable, breakable with Hammer)
 40 - 
 41 - 
 42 - 
