@@ -20,7 +20,7 @@ PLATFORMING TREND (N/A if Irregular): Normal (N), Hopper (H = Hops around), Skip
 MOVEMENT SPEED (X if TREND is K): Slow (S), Normal (N), Fast (F), Very Fast (V)
 JUMP HEIGHT (Based on 16x16 Block Stacks): N/A (X), 1, 2, 3, 4, Random (R (Min # - Max #))
 TRAITS: Describe if Platforming Type is Irregular, or N/A (X)
-ALT. ATTACK OPTION: Transform (T, (Timer in Seconds), ID, Class), Describe if need be, or N/A (X)
+ALT. ATTACK OPTION: Transform (T, (Timer in Seconds), (ID, Class)), Describe if need be, or N/A (X)
 DEATH STATE: Die (D), Transform (T (ID, Class))
 
 
@@ -64,14 +64,20 @@ U - Classes take from different palettes (i.e. 0 = Green, 1 = Red), Immune from 
 
 Koopa Marshal (Stronger Troopa) (7, N)
 0 - TYPE = R, TREND = S, SPEED = F, JUMP = 1, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-3), TRAIT = X, ATK = T, 5, (X,X), DEATH = D
+1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-3), TRAIT = X, ATK = T, 10, (15,0), DEATH = D
 U - Higher HP than Troopa, Classes take from different palettes (i.e. 0 = Green, 1 = Red), Immune from stomp damage if in shell
 
+Koopa Bombardier (Bombshell Koopa) (8, N)
+0 - TYPE = R, TREND = N, SPEED = N, JUMP = 1, TRAIT = X, ATK = T, 5, (15,1), DEATH = D
+1 - TYPE = R, TREND = S, SPEED = F, JUMP = R (2-3), TRAIT = X, ATK = T, 3, (16,1), DEATH = D
+U - Higher HP than Marshal, Activate Attack Option with Fireball, Activating hit detection while in shell (not hunter) 
+    causes explosion, explosion can break blocks and do massive damage to enemies and Mario
 
-Koopa Bombardier (Bombshell Koopa) (8, M?)
 Koopa Paratroopa (Bounce) (9, N)
 Koopa Airmarshal (Bounce) (10, ?)
 Koopa Bomba (Bounce) (11, M?)
 Buzzy Beetle (12, M)
 Spiny (13, H)
 Spinous (Spiny that affects status) (14, H)
+Hunter Shell (Koopa Shell in Pursuit Mode) (15, M)
+Jumping Hunter Shell (16, M)
