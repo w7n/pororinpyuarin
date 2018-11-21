@@ -1,10 +1,10 @@
 Enemy Name (ID, Element) 
-Class 0 - Platforming Type, Platforming Trend, Movement Speed, Jump Height, Traits, Alt. Attack Option, Death State
+Class 0 - Platforming Type, Platforming Trend, Movement Speed, Jump Height, Traits, Alt. Attack Option, Death State, Coefficient Type 
 Class 1 - " "
+Coefficient - Describe if Special, or N/A
 U (All Classes) - Universal Traits (i.e. If Standing, N, If Shell, M)
 
-
-Element:
+ELEMENTS:
 N = Normal
 H = Harmful when stomped onto, otherwise normal
 F = Fiery (Hit by fire = Lv+1, prone to ice; Normally can not be stomped onto)
@@ -22,7 +22,9 @@ JUMP HEIGHT (Based on 16x16 Block Stacks): N/A (X), 1, 2, 3, 4, Random (R (Min #
 TRAITS: Describe if Platforming Type is Irregular, or N/A (X)
 ALT. ATTACK OPTION: Transform (T, (Timer in Seconds), (ID, Class)), Describe if need be, or N/A (X)
 DEATH STATE: Die (D), Transform (T (ID, Class))
+COEFFICIENT TYPE: Normal Coefficient (N), Special Coefficient (S, describe below)
 
+ENEMY COEFFICIENTS:
 No mods
 HP2
 HP4
@@ -40,52 +42,69 @@ Force change to palette 1
 Force change to palette 2
 Force change to palette 3
 
+PLATFORM COEFFICIENTS:
+Oval Vert CntrClk
+Oval Horz CntrClk
+Oval \ CntrClk
+Oval / CntrClk
+∞ shaped CntrClk
+∞ shaped alt. CntrClk
+8 shaped CntrClk
+Weird shape CntrClk
+Oval Vert Clk
+Oval Horz Clk
+Oval \ Clk
+Oval / Clk
+∞ shaped Clk
+∞ shaped alt. Clk
+8 shaped Clk
+Weird shape Clk
 ------------------------------------------------------------------------------------------------------------------------------
 
 
 Goomba (0, N) 
-0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = S, SPEED = F, JUMP = 1, TRAIT = X, ATK = X, DEATH = D
+0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = S, SPEED = F, JUMP = 1, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
 U - Reinflate until all HP is gone (Aesthetic)
 
 Goompa (Stronger Goomba) (1, N)
-0 - TYPE = R, TREND = S, SPEED = F, JUMP = 2, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (1-3), TRAIT = X, ATK = X, DEATH = D
+0 - TYPE = R, TREND = S, SPEED = F, JUMP = 2, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (1-3), TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
 U - Reinflate until all HP is gone (Aesthetic)
 
 Deddoomba (Zombie) (2, N)
-0 - TYPE = R, TREND = K, SPEED = X, JUMP = 2, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-4), TRAIT = X, ATK = X, DEATH = D
+0 - TYPE = R, TREND = K, SPEED = X, JUMP = 2, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-4), TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
 U - Poison Mario, Invert His Controls Temporarily, Increase Inversion Cooldown time for Class 1 
 
 Goometto (Helmet) (3, M)
-0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = H, SPEED = N, JUMP = 1, TRAIT = X, ATK = X, DEATH = D
+0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = H, SPEED = N, JUMP = 1, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
 U - Immune to stomp damage, Consider only placing on platforms where only enemies can walk on
 
 Paragoomba (Bounce) (4, N)
-0 - TYPE = R, TREND = H, SPEED = N, JUMP = 1, TRAIT = X, ATK = X, DEATH = T (0,1)
-1 - TYPE = R, TREND = H, SPEED = F, JUMP = 2, TRAIT = X, ATK = X, DEATH = T (0,1)
+0 - TYPE = R, TREND = H, SPEED = N, JUMP = 1, TRAIT = X, ATK = X, DEATH = T (0,1), COEFFICIENT = N
+1 - TYPE = R, TREND = H, SPEED = F, JUMP = 2, TRAIT = X, ATK = X, DEATH = T (0,1), COEFFICIENT = N
 U - Low HP (One Stomp Kills it)
 
 Paragoompa (Bounce) (5, N)
-0 - TYPE = R, TREND = H, SPEED = F, JUMP = R (2-3), TRAIT = X, ATK = X, DEATH = T (1,1)
-1 - TYPE = R, TREND = H, SPEED = V, JUMP = R (2-4), TRAIT = X, ATK = X, DEATH = T (1,1)
+0 - TYPE = R, TREND = H, SPEED = F, JUMP = R (2-3), TRAIT = X, ATK = X, DEATH = T (1,1), COEFFICIENT = N
+1 - TYPE = R, TREND = H, SPEED = V, JUMP = R (2-4), TRAIT = X, ATK = X, DEATH = T (1,1), COEFFICIENT = N
 U - Low HP (Two Stomps Kills it)
 
 Koopa Troopa (6, N)
-0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D
+0 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = N, SPEED = N, JUMP = X, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
 U - Classes take from different palettes (i.e. 0 = Green, 1 = Red), Immune from stomp damage if in shell
 
 Koopa Marshal (Stronger Troopa) (7, N)
-0 - TYPE = R, TREND = S, SPEED = F, JUMP = 1, TRAIT = X, ATK = X, DEATH = D
-1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-3), TRAIT = X, ATK = T, 10, (15,0), DEATH = D
+0 - TYPE = R, TREND = S, SPEED = F, JUMP = 1, TRAIT = X, ATK = X, DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = K, SPEED = X, JUMP = R (2-3), TRAIT = X, ATK = T, 10, (15,0), DEATH = D, COEFFICIENT = N
 U - Higher HP than Troopa, Classes take from different palettes (i.e. 0 = Green, 1 = Red), Immune from stomp damage if in shell
 
 Koopa Bombardier (Bombshell Koopa) (8, N)
-0 - TYPE = R, TREND = N, SPEED = N, JUMP = 1, TRAIT = X, ATK = T, 5, (15,1), DEATH = D
-1 - TYPE = R, TREND = S, SPEED = F, JUMP = R (2-3), TRAIT = X, ATK = T, 3, (16,1), DEATH = D
+0 - TYPE = R, TREND = N, SPEED = N, JUMP = 1, TRAIT = X, ATK = T, 5, (15,1), DEATH = D, COEFFICIENT = N
+1 - TYPE = R, TREND = S, SPEED = F, JUMP = R (2-3), TRAIT = X, ATK = T, 3, (16,1), DEATH = D, COEFFICIENT = N
 U - Higher HP than Marshal, Activate Attack Option with Fireball, Activating hit detection while in shell (not hunter) 
     causes explosion, explosion can break blocks and do massive damage to enemies and Mario
 
