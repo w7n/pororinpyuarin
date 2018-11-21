@@ -27,10 +27,10 @@ No mods
 HP2
 HP4
 HP6
-Trajectory 0 / HP8
-Trajectory 1 / HP12
-Trajectory 2 / HP16
-Trajectory 3 / HP24
+Init enemy in shell
+Init enemy in kicked shell
+Init enemy in shell clinging to ceiling
+Init enemy in reversed gravity clinging to ceiling
 Drop mushroom
 Drop random suit powerup
 Drop key (key ID = X coordinate on this screen)
