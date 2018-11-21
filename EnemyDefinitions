@@ -23,6 +23,22 @@ TRAITS: Describe if Platforming Type is Irregular, or N/A (X)
 ALT. ATTACK OPTION: Transform (T, (Timer in Seconds), (ID, Class)), Describe if need be, or N/A (X)
 DEATH STATE: Die (D), Transform (T (ID, Class))
 
+No mods
+HP2
+HP4
+HP6
+Trajectory 0 / HP8
+Trajectory 1 / HP12
+Trajectory 2 / HP16
+Trajectory 3 / HP24
+Drop mushroom
+Drop random suit powerup
+Drop key (key ID = X coordinate on this screen)
+Drop guardian key (auto-set HP to 16)
+Force change to palette 0
+Force change to palette 1
+Force change to palette 2
+Force change to palette 3
 
 ------------------------------------------------------------------------------------------------------------------------------
 
