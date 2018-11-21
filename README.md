@@ -19,6 +19,6 @@ Area types <=3 use complex terrain (all sides). Types below use simple terrain (
 
 5 - Normal w/cannons & other enemy generators (only in this type will cannons be checked whilst refreshing level data)
 
-6 - Normal w/time-dependant blocks
+6 - Normal w/time-dependant blocks, or blocks related to the Rhizome routine (e.g. destructing blocks in Luigi no Nazo)
 
 7 - BG oriented, only for aesthetics, while only the most basic objects are used.
