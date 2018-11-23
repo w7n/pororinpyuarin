@@ -29,10 +29,10 @@ No mods
 HP2
 HP4
 HP6
-Init enemy in shell
-Init enemy in kicked shell
-Init enemy in shell clinging to ceiling (EMB type)
-Init enemy in reversed gravity clinging to ceiling
+Trajectory 0 / Init enemy in shell
+Trajectory 1 / Init enemy in kicked shell
+Trajectory 2 / Init enemy in shell clinging to ceiling (EMB type)
+Trajectory 3 / Init enemy in reversed gravity clinging to ceiling
 Drop mushroom
 Drop random suit powerup
 Drop key (key ID = X coordinate on this screen)
