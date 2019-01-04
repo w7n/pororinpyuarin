@@ -34,7 +34,7 @@ In areatype 0 there is no need to set the water attr. flag for any block.
 1F - Damage tile (right)
 20 - Vine
 21 - Alt. climbing metatile (e.g. rope)
-22 - 
+22 - Speed Booster Block
 23 - Bounced block (used to stun enemies on the block, reserved block for all areatypes)
 24 - Save block
 25 - ! Block (Switch powerups)
