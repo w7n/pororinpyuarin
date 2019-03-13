@@ -7,7 +7,7 @@ Area types:
 
 0 - Completely underwater, no unique blocks
 
-1 - Normal w/slopes (45deg) and switch-dependant blocks (EMB's ! blocks etc.)
+1 - Normal w/slopes
 
 2 - Normal w/breakable terrain (i.e. Super Fire can break these terrain blocks and reveal paths, otherwise Super Fire can only break bricks)
 
@@ -15,7 +15,7 @@ Area types:
 
 Area types <=3 use complex terrain (all sides). Types below use simple terrain (only unique for up&down)
 
-4 - Normal w/switch-dependant blocks (EMB's ! blocks etc.) and possibly MANY more slope blocks
+4 - Normal w/more switch-dependant blocks and possibly MANY more slope blocks
 
 5 - Normal w/cannons & other enemy generators (only in this type will cannons be checked whilst refreshing level data)
 
