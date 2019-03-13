@@ -7,7 +7,7 @@ Area types:
 
 0 - Completely underwater, no unique blocks
 
-1 - Normal w/slopes (45deg)
+1 - Normal w/slopes (45deg) and switch-dependant blocks (EMB's ! blocks etc.)
 
 2 - Normal w/breakable terrain (i.e. Super Fire can break these terrain blocks and reveal paths, otherwise Super Fire can only break bricks)
 
@@ -22,3 +22,6 @@ Area types <=3 use complex terrain (all sides). Types below use simple terrain (
 6 - Normal w/time-dependant blocks, or blocks related to the Rhizome routine (e.g. destructing blocks in Luigi no Nazo)
 
 7 - BG oriented, only for aesthetics, while only the most basic objects are used.
+
+NOTE:
+Switch-dependant blocks (EMB's ! blocks etc.) can be used in all areas except AT6 & AT7, but only AT4 can have 3 switches at the same time.
