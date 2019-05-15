@@ -28,7 +28,7 @@ NE = Not enemy, and thus undefeatable and cannot harm you either. This should on
 
 
 Metatile arrangement:
-00 - 3F (0-63): Universal
+00 - 3F (0-63): Universal (it's best that even the graphical tables remain unchanged)
 40 - 7F (64-127): Area type related
 80 - BF (128-191): BG related
 C0 - FF (192-255): Common blocks for either areatype0-3 or areatype 4-7, including terrain related blocks and others. Slope related blocks should be in this category.
