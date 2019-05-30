@@ -7,9 +7,9 @@ Area types:
 
 0 - Completely underwater, no unique blocks
 
-1 - Normal w/slopes and terrain of multiple palettes
+1 - Normal w/slopes, breakable terrain (i.e. Super Fire can break these terrain blocks and reveal paths, otherwise Super Fire can only break bricks), and terrain of multiple palettes
 
-2 - Normal w/breakable terrain (i.e. Super Fire can break these terrain blocks and reveal paths, otherwise Super Fire can only break bricks)
+2 - Normal w/slopes and breakable terrain 
 
 3 - Normal w/slopes and some other unique blocks
 
